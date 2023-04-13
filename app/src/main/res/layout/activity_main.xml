@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="140dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_alignParentLeft="true">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="140dp"
+            android:layout_height="70dp"
+            android:orientation="horizontal"
+            />
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+           >
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/game_IMG_hole00"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/hole"
+                android:layout_marginTop="0dp"
+                android:layout_marginStart="20dp"/>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/game_IMG_hole10"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/hole"
+                android:layout_marginTop="0dp"
+                android:layout_marginStart="20dp"/>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/game_IMG_hole20"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/hole"
+                android:layout_marginTop="0dp"
+                android:layout_marginStart="20dp"/>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/game_IMG_hole30"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/hole"
+                android:layout_marginTop="0dp"
+                android:layout_marginStart="20dp"/>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/game_IMG_car1"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/car"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="20dp"/>
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/game_IMG_hole40"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/hole"
+                android:layout_marginTop="0dp"
+                android:layout_marginStart="20dp"/>
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/game_IMG_leftArrow"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/left_arrow"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="50dp" />
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="140dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+       android:layout_marginStart="140dp"
+        >
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="140dp"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        />
+
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/game_IMG_hole01"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/hole"
+                android:layout_marginTop="0dp"
+                android:layout_marginStart="20dp"/>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/game_IMG_hole11"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/hole"
+                android:layout_marginTop="0dp"
+                android:layout_marginStart="20dp"/>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/game_IMG_hole21"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/hole"
+                android:layout_marginTop="0dp"
+                android:layout_marginStart="20dp"/>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/game_IMG_hole31"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/hole"
+                android:layout_marginTop="0dp"
+                android:layout_marginStart="20dp"/>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/game_IMG_car2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/car"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="20dp"/>
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/game_IMG_hole41"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/hole"
+            android:layout_marginTop="0dp"
+            android:layout_marginStart="20dp"/>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="140dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_alignParentRight="true">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginStart="16dp"
+        android:orientation="horizontal"
+        >
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/game_IMG_heart1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ic_heart" />
+        <View
+            android:layout_width="5dp"
+            android:layout_height="wrap_content"/>
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/game_IMG_heart2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ic_heart" />
+        <View
+            android:layout_width="5dp"
+            android:layout_height="wrap_content"/>
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/game_IMG_heart3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ic_heart" />
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+           >
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/game_IMG_hole02"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/hole"
+                android:layout_marginTop="0dp"
+                android:layout_marginStart="20dp"/>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/game_IMG_hole12"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/hole"
+                android:layout_marginTop="0dp"
+                android:layout_marginStart="20dp"/>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/game_IMG_hole22"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/hole"
+                android:layout_marginTop="0dp"
+                android:layout_marginStart="20dp"/>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/game_IMG_hole32"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/hole"
+                android:layout_marginTop="0dp"
+                android:layout_marginStart="20dp"/>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/game_IMG_car3"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/car"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"/>
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/game_IMG_hole42"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/hole"
+                android:layout_marginTop="0dp"
+                android:layout_marginStart="20dp"/>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/game_IMG_rightArrow"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/right_arrow"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"/>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.appcompat.widget.LinearLayoutCompat>
+
+
+</RelativeLayout>
